@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// this programs calculates the number of nodes not the number of edges for height//
 struct Tree{
     int value;
     struct Tree* left;
