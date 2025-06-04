@@ -20,8 +20,9 @@ int max(int a, int b) {
     return (a > b) ? a : b;
     /*if(a > b){
         return a;
-    }else{
-        return b}*/
+    } else {
+        return b;
+        }*/
 }
 
 int height(struct Tree* node){
