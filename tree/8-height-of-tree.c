@@ -19,7 +19,7 @@ struct Tree* createTree(int value){
 int max(int a, int b) {
     return (a > b) ? a : b;
     /*if(a > b){
-        return a
+        return a;
     }else{
         return b}*/
 }
