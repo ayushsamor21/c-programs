@@ -8,8 +8,8 @@ int main(){
     while (number != 0){
         original = number % 10;
         sum = sum + original;
-        number = number/10;
+        number /= 10;
     }
-    printf("The sum of the number : %d\n", sum);
+    printf("The sum of the number %d : %d\n", original, sum);
     return 0;
 }
