@@ -9,7 +9,7 @@ void palindrome(int number){
     }
     if (remainder == original){
         printf("The number %d is palindrome\n", remainder);
-    } else {
+    } else{ 
         printf("The number %d is not palindrome\n", remainder);
     }
 }
