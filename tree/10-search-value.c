@@ -45,15 +45,15 @@ void freeTree(struct Tree* root){
 }
 
 int main(){
-    int element, num1 = 10, num2 = 20, num3 = 30, num4 = 40, num5 = 50, num6 = 60, num7 = 70;
+    int element;
 
-    struct Tree* root = createTree(num1);
-    struct Tree* leftParent = createTree(num2);
-    struct Tree* rightParent = createTree(num3);
-    struct Tree* leftLeftChild = createTree(num4);
-    struct Tree* leftRightChild = createTree(num5);
-    struct Tree* rightLeftChild = createTree(num6);
-    struct Tree* rightRightChild = createTree(num7);
+    struct Tree* root = createTree(10);
+    struct Tree* leftParent = createTree(20);
+    struct Tree* rightParent = createTree(30);
+    struct Tree* leftLeftChild = createTree(40);
+    struct Tree* leftRightChild = createTree(50);
+    struct Tree* rightLeftChild = createTree(60);
+    struct Tree* rightRightChild = createTree(70);
 
 
 
@@ -65,7 +65,7 @@ int main(){
     rightParent->right = rightRightChild;
 
 
-    printf("InOrder Traversal: ");
+    printf("Inorder Traversal: ");
     inorderTraversal(root);
     printf("\n");
 
