@@ -32,7 +32,6 @@ int childOfNode(struct Tree* root, int key){
         }
         return 1;
     }
-
     return childOfNode(root->left, key) || childOfNode(root->right, key);
 }
 
